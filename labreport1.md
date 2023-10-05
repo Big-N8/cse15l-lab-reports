@@ -12,4 +12,6 @@ Right now, you are most likely using a device where you do not have as many file
 
 We can use ***cd*** to make this task a lot easier. Observe the following examples. 
 
+![Image](Screenshot 2023-10-05 115721.png)
+
 
