@@ -48,6 +48,31 @@ I changed the directory to **lecture1** first then realized it would not work si
 ---
 **cat** used with no arguement
 
+![Screenshot 2023-10-05 212324](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/7c501fbb-6c66-499e-b8eb-748dfc7e5568)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/550a3ec5-5f99-4cb0-967c-109ec8b03d76)
+
+When using **cat** on in the home directory, it tends to create a bug of some sort. This could be an error since the purpose of **cat** is to print the contents of files given by the paths. However, when in the **/home** there is nothing to print. The same can be said even when the directory is changed. 
+                  
+
+
+**cat** use with a directory as an arguement
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/6a3ae312-1c1c-4e4a-a38a-6f498774ea0f)
+
+The directory was changed to **lecture1** to prevent any mishaps from happening. When using a directory as an arguement, it only confirms if the arguement is a directory or not. This can be error since it is supposed to print out the contents of files but once again, **messages** is a directory, not a file. 
+
+**cat** used with a file as an arguement
+
+![Screenshot 2023-10-05 212324](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/1c54c8ba-fd27-415c-bb63-9d36a3f72657)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/842642e1-b5d9-4e4e-93b3-b0f3db2bd159)
+
+The **cat** command was used in two different directories. In the first photo (upper), the directory was in **messages** so that it can only access its text files. I tested the command of each text file and they all were printed out. Afterwards, I changed the directory back to **lecture1**. Since this happened, I was able to use the command on the Hello.java file since the file is directly accessible within the **lecture1** folder, not **messages folder**.
+
+
+
+
+
+
 
 
 
