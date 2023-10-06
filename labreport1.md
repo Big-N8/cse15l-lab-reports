@@ -10,13 +10,13 @@ In this lab, we learned about the usage of the following file system commands
 
 ![Screenshot 2023-10-05 195035](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/72342861-ea31-48c5-a99a-1bda07dd9a46)
 
-The working directory at the time is still **home**. This is because that even though the **cd** command followed through, it was not pointed anywhere. Since it was not pointed anywhere, it decided to stay with the **home** directory.This is not error, it is just more of an empty answer. The command did not recieve an error but it just did not do what it was intended since it was not pointed in any direction. 
+The working directory at the time is still **home**. The output did not print anything since we did not give a directory to change to. Since it was not pointed anywhere, it decided to stay with the **home** directory by default. This is not error, it is just more of an empty answer. The command did not recieve an error but it just did not do what it was intended since it was not pointed in any direction. 
 
 **cd** when it has a directory for an arguement
 
 ![Screenshot 2023-10-05 204426](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/2aae3aa9-ac32-4fe8-a791-b53a921235c0)
 
-The working director has now been changed to **lecture1** since we followed with a directory after the CD command, meaning we were now able to actually change the directory from **home** to **lecture1**. This is not an error as indicated within the brackets, which now shows as **[user@sahara ~lecture1]**
+The working director has now been changed to **lecture1** since we followed with a directory after the **cd** command. This means we were able to actually change the directory from **home** to **lecture1**. This is not an error as indicated within the brackets, which now shows as **[user@sahara ~lecture1]**
 
 **cd** when it has a file for an arguement 
 
@@ -66,7 +66,7 @@ The directory was changed to **lecture1** to prevent any mishaps from happening.
 ![Screenshot 2023-10-05 212324](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/1c54c8ba-fd27-415c-bb63-9d36a3f72657)
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/842642e1-b5d9-4e4e-93b3-b0f3db2bd159)
 
-The **cat** command was used in two different directories. In the first photo (upper), the directory was in **messages** so that it can only access its text files. I tested the command of each text file and they all were printed out. Afterwards, I changed the directory back to **lecture1**. Since this happened, I was able to use the command on the Hello.java file since the file is directly accessible within the **lecture1** folder, not **messages folder**.
+The **cat** command was used in two different directories. In the first photo (upper), the directory was in **messages** so that it can only access its text files. I tested the command of each text file and they all were printed out. Afterwards, I changed the directory back to **lecture1**. Since this happened, I was able to use the command on the Hello.java file since the file is directly accessible within the **lecture1** folder, not the **messages** folder.
 
 
 
