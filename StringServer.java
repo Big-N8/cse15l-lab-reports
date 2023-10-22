@@ -23,7 +23,7 @@ class Handler implements URLHandler
 }
 
 class StringServer
-    {{
+{{
         public static void main(String[] args) throws IOException
         {
             if(args.length == 0)
@@ -35,5 +35,3 @@ class StringServer
         int port = Integer.parseInt(args[0]);
         Server.start(port, new Handler());
     }}
-
-
