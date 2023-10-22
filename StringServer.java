@@ -25,7 +25,7 @@ class Handler implements URLHandler {
     }
 }
 
-class NumberServer 
+class StringServer 
 {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
@@ -37,4 +37,4 @@ class NumberServer
 
         Server.start(port, new Handler());
     }
-}}
+}
