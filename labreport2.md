@@ -1,6 +1,28 @@
 # Lab Report 2
 In this lab, we covered Servers and SSH keys.
 
+**Part 1**
+
+Here is the code that I used for **StringServer**
+
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/df66ef50-1297-4cae-a293-c728e90be5a2)
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/61b9efc4-4dbc-49b6-a124-6c7c8896ed91)
+
+
+Here are the results I got when I changed the queries in the URL when the server was running. 
+
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/38a726fd-8a62-41b3-8874-709154d53755)
+
+The methods that are called in this are the handleRequest, followed by *.contains* and then the *.split*.
+The fields of the values were not changed since it was a string to begin with so a change of field was not needed. 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/3ed7e386-eac9-4f9f-8887-f9a6a4830a93)
+
+The methods that are called in this are the same as the one above. 
+One of the intaken values had their field changed since they are integers that were taken as strings and eventually listed. 
 
 **Part 2**
 
