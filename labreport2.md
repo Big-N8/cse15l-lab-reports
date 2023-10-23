@@ -4,3 +4,36 @@ In this lab, we covered Servers and SSH keys.
 
 **Part 2**
 
+Before starting, I needed to go to the terminal and generate SSH keys using **ssh-keygen** in our terminal. 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/1f116773-3ec6-418b-9f18-682325f8c8d9)
+
+After this was made, I was now able to begin with the **ls** commands as follows
+
+
+* **ls** with path to *private* key (on my computer)
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/86b48fbd-1703-4435-8bc5-be645087952c)
+
+
+* **ls** with path to *public* key for SSH (within ieng6 account)
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/d5478745-0e37-442e-9dc9-dd824e438fd3)
+
+The contents of the public key was sent to the **authorized_keys** file as shown below
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/7fa4c405-6497-4786-bdae-2dd1efeada54)
+
+
+
+* Terminal reaction with login into ieng6 account (without using password)
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/37f7052f-c53d-49a0-a858-94515408298e)
+
+
+**Part 3**
+
+I learned a lot of new things from both week 2 and 3. An example is the **scp** command. It was fascinating how we were able to directly copy contents of a file to another file on another computer. Learning about all the different commands that can be used in queries was also cool, I was not aware of how much variety there can be. 
+
+
+
