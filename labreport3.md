@@ -1,11 +1,13 @@
+# **Lab Report 3**
 **In summary**
 
 In lab for week 4 and 5, we debugged programs by observing their symptoms and running tests. We also found out new terminal commands that help us navigate through more 
 
-# **Debugging Programs**
+**Debugging Programs**
+
 I will use the ArrayExamples and ArrayTests code, both were provided in Lab during Week 4. 
 
-This is the code for ArrayExamples.java, where the bug had 
+This is the code for ArrayExamples.java, which originally had a bug in it. 
 ~~~
 import static org.junit.Assert.assertArrayEquals;
 
@@ -24,5 +26,21 @@ public class ArrayExamples
     return arr;
   }
 
+}
+~~~
+
+This is the test that was ran on it which gave a failure inducing-input. The intent was for the inputted array to be outputted but with the elements in reverse order. 
+~~~
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+
+  @Test 
+  public void testReversed()
+  {
+    int[] input1 = {2,4,6};
+    assertArrayEquals(new int[]{6,4,2}, ArrayExamples.reversed(input1));
+  }
 }
 ~~~
