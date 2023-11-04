@@ -107,11 +107,53 @@ During lab in week 5, we learned of new terminal commands that helped us find fi
 * **find**
 * **grep**
 
-However, there are actually a LOT more commands that function similarly to these three. For this report, we will use ChatGPT to help us find new terminal commands that are similar to the **find** command. \
+However, there are actually a LOT more commands that function similarly to these three. For this report, we will use ChatGPT to help us find new terminal commands that are similar to the **grep** command. 
 
-The prompt that I gave the AI was the following: **What are other terminal commands that are alternatives to the command "find". Provide code as an example, please.** 
+The prompt that I gave the AI was the following: **Give me terminal that are similar to the command "grep". Provide associated code for a visual.** 
 
-In response, 
+As I read the first set of commands it gave me, I noticed that some of the commands worked for windows and others worked for linux terminals (after doing some online research and finding out why some of them were not being recognized)
+
+I then followed up with the following prompt to be more specific: **Keep in mind, I am using windows. So please give me commands that are compatible with windows.**
+
+In response, It gave me a new set of compatible commands
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/2488ced0-5f15-4f64-b3fa-77583b2cae09)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/39499753-7412-4125-96ae-d6df5d85dcec)
+
+Though I will not be using them all that were give, one of them that stood out to me was the **findstr** command. 
+
+## **findstr**
+
+Using the technical directory, I made sure to use **cd** and changed the directory into the following path **docsearch/technical/911report** for this example. 
+
+You would use the command in the following order: the command (findstr), the string you want it to find in quotes, the text file you want it to look through.  
+~~~
+$ findstr "Three months later," chapter-2.txt
+~~~
+
+The output for the example above is the following
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/65442d25-dbc5-4462-93a9-0156168ceea3)
+
+As ChatGPT mentioned, the purpose of the command is to take the inputted string and find as it called "string patterns". If you look closely at each of the outputs indents, you can see the first two have the strings "Three" and the other two towards the bottom have the strings "Months" in common. This can be useful with documentation that uses dates to specify when it was updated. To also mention, the inputted string must be something very specific or this could lead to the command printing the entire contents of the file which is something we do not want. 
+
+## **
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
