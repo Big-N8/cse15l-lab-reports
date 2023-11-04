@@ -141,6 +141,28 @@ As ChatGPT mentioned, the purpose of the command is to take the inputted string 
 
 I also used ChatGPT to find this command. Below is the prompt I gave and the output I received from the AI.
 
+As a follow up from the previous prompt and after the AI being a bit misleading. 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/6918821a-746b-42eb-8b0e-57111220f0de)
+
+The output gave me a list of commands and I chose this one
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/df37a5ff-2cc2-488c-83ee-cb3aa76f495d)
+
+This command is similar to **grep** in terms of the input: command, String (with quotes), path to text file
+
+~~~
+$ egrep "California" technical/911report/chapter-7.txt
+~~~
+
+The output that came out from this command was the following. 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/a510306a-24b8-47f1-a2e2-9428ed047406)
+
+
+
+
+
 
 
 
