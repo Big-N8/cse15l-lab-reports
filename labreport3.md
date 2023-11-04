@@ -141,6 +141,8 @@ The output for the example above is the following
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/65442d25-dbc5-4462-93a9-0156168ceea3)
 
+In this example, the string pattern is "Three months later". As we can see in the output, each indent starts with either "Three" or "Months". This can be useful when checking for redudancy in text. 
+
 **Second**
 
 ~~~
@@ -159,29 +161,14 @@ The output for the example above is the following
                 possible conflicts, the FBI designates a single office to be in charge of an entire
                 FBI's institutional knowledge on Bin Ladin and al Qaeda resided there. This office
                 to spend much energy on matters over which they had no control and for which they
-            The FBI's domestic intelligence gathering dates from the 1930s. With World War II
-                looming, President Franklin D. Roosevelt ordered FBI Director J. Edgar Hoover to
-                FBI's domestic portfolio against all rivals. Hoover felt he was accountable only to
-                the president, and the FBI's domestic intelligence activities kept growing. In the
-                1960s, the FBI was receiving significant assistance within the United States from
-                domestic dissidents. The FBI had spied on a wide range of political figures,
-                "highly favorable" view of the FBI dropped from 84 percent to 37 percent. The FBI's
-                Still, his guidelines, like Levi's, took account of the reality that suspicion of
-                Smith's guidelines also took account of the reality that potential terrorists were
-            In 1986, Congress authorized the FBI to investigate terrorist attacks against
-                authority for the FBI to make arrests abroad without consent from the host country.
-                Counterterrorist Center, where the FBI, the CIA, and other organizations could work
-                together on international terrorism. While it was distinctly a CIA entity, the FBI
-            The strengths that the FBI brought to counterterrorism were nowhere more brilliantly
-                Meanwhile, FBI technicians, working with U.K. security services, gathered and
-                with other evidence, the FBI put together a case pointing conclusively to the Libyan
-                solve-the FBI remained capable of extraordinary investigative success.
-            FBI Organization and Priorities In 1993, President Clinton chose Louis Freeh as the
+
+
+              .... (The file was really long)
 ~~~
 
+The second one is a lot longer since This can be useful with documentation that uses dates to specify when it was updated. However, if the string pattern is too simple for example if we used a word like "the" it can lead to scenarios like this where you are given EVERY possible outcome of "the", which can be annoying to deal with. 
 
 
-As ChatGPT mentioned, the purpose of the command is to take the inputted string and find as it called "string patterns". If you look closely at each of the outputs indents for the first output, you can see the first two have the strings "Three" and the other two towards the bottom have the strings "Months" in common. The second one is a lot longer since This can be useful with documentation that uses dates to specify when it was updated. To also mention, the inputted string must be something very specific or this could lead to the command printing most or all of the contents from the file as shown in the second example. 
 
 ## **egrep**
 
@@ -202,7 +189,7 @@ $ egrep "California" technical/911report/chapter-7.txt
 ~~~
 
 ~~~
-$ egrep "2001" technical/911report/chapter-8.txt
+$ egrep "Kingdom" chapter-2.txt
 ~~~
 
 
@@ -226,53 +213,216 @@ The output that came out from this command was the following.
                 an English as a second language program in Oakland, California, which he had
 ~~~
 
+Similar to **findstr**, instead of using string patterns, it finds lines that contain the inputted string (in this case, "California"). This can be useful when trying to see how many times a particular word is used. 
+
 **Second**
 
 ~~~
- As 2001 began, counterterrorism officials were receiving frequent but fragmentary
-                2001, it is useful to understand how threat information in general is collected and
-                chosen for briefing the president and senior officials. During 2001, Director of
-                2001, that related to Bin Ladin. The PDB is considered highly sensitive and is
-                (NSA), CIA, or FBI. The Drumbeat Begins In the spring of 2001, the level of
-            In May 2001, the drumbeat of reporting grew louder with reports to top officials that
-            On July 18, 2001, the State Department provided a warning to the public regarding
-            During the spring and summer of 2001, President Bush had on several occasions asked
-                President George W. Bush on August 6, 2001.37 Redacted material is indicated by
-            Most of the intelligence community recognized in the summer of 2001 that the number
-                sleeper cells were likely in the United States. In January 2001, Clarke forwarded a
-            Clarke reflected a different perspective in an email to Rice on September 15, 2001.
-                procedures, none of the few that were released during the summer of 2001 increased
-                briefings for specific air carriers between May 1, 2001, and September 11, 2001. Two
-                such mistakes created opportunities during 2001, especially in late August.
-            On four occasions in 2001, the CIA, the FBI, or both had apparent opportunities to
-            January 2001: Identification of Khallad
-                source who had identified Khallad. In early January 2001, two photographs from the
-                    2001.
-                did not have access-that information regarding the January 2001 identification of
-                in January 2001, the CIA had resumed its search for him, placed him on the State
-                have been found-either before or at the time he applied for a new visa in June 2001,
-            Spring 2001: Looking Again at Kuala Lumpur
-            By mid-May 2001, as the threat reports were surging, a CIA official detailed to the
-            June 2001: The Meeting in New York
-            August 2001: The Search for Mihdhar and Hazmi Begins and Fails
-            During the summer of 2001 "John," following a good instinct but not as part of any
-                15, 2000, and again on July 4, 2001. "Jane" and "Mary" also learned that there was
-                of Justice Inspector General.86We will recap it briefly here. In July 2001, an FBI
-            On August 15, 2001, the Minneapolis FBI Field Office initiated an intelligence
-                United States in February 2001, and had begun flight lessons at Airman Flight School
-                order was signed on August 17, 2001.
-                the threat reporting during the summer of 2001.
-                this information been available in late August 2001, the Moussaoui case would almost
-            The FBI also learned after 9/11 that the millennium terrorist Ressam, who by 2001 was
-                Khalid Sheikh Mohammed received by the intelligence community in the summer of 2001.
-            When additional pieces of the puzzle arrived in the spring and summer of 2001, they
-                person known as "Mukhtar" that the CIA had begun analyzing in April 2001. The CIA
-                12, 2001, a CIA report said that "Khaled"was actively recruiting people to travel
-            As Tenet told us, "the system was blinking red" during the summer of 2001. Officials
-            Yet no one working on these late leads in the summer of 2001 connected the case in
+                Kingdom. It praised the 1983 suicide bombing in Beirut that killed 241 U.S. Marines,
+                the Kingdom and other states bordering the Persian Gulf in donating money to build
+                Kingdom, Bin Ladin and a number of Islamic clerics began to publicly denounce the
 ~~~
 
-As we saw in lab, **grep** on its own listed any 
+Same as the example before this, it is now finding all the lines where "kingdom is". Luckily, it has less amount of lines so finding those lines within the file is not as tideous. Another way how the command be useful is that it can intake particular phrases and show how many times that phrase is used. 
+
+
+After testing the difference between **grep** and **egrep**, it was difficult to notice the difference between the two. I asked the AI once again what the difference between the two is. 
+
+**Prompt**
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/469b4c06-7cac-4505-ab21-ea44cb3be5b9)
+
+Output
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/32068ea9-c355-4b7b-87ee-1623af487a4b)
+
+
+I then followed up with asking for an example to get a visual. 
+
+**Prompt**
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/4bdb7715-44d3-49ad-98ea-47c5a75978c2)
+
+**Output**
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/7c0a9b1a-e35f-4d95-84b6-08112668d302)
+
+
+Essentially, **egrep** is a more suitable command to use if you have a large text file and inputting the string would not have to be so tideous, as shown in the example. This would be useful when you want to find similar strings in the file and do not want to worry about dealing with tideous syntax errors. The only downside is how cluttered the terminal can be, so it would be ideal to only use phrases or words that are not used as much or else you can end up almost printing out the whole text file. 
+
+## **sed**
+
+I once again asked ChatGPT to give me more commands that work similar to **grep**
+
+**Prompt**
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/3597652a-f4fa-4bee-92ae-ea02f89c46fb)
+
+**Output**
+
+Out of the whole list, I chose this one. 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/0a2bb3bf-8dcc-4da8-9859-9aebb458207f)
+
+Following up with a prompt asking for an example. 
+
+**Prompt** 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/1b6c64c1-e0a2-445c-add5-f818c9ebd7cd)
+
+**Output**
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/2c90a63d-8866-407a-b51a-980a5116b2ac)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/3e700bfa-dc1a-40da-abc2-b235cac00e79)
+
+
+Here are some examples I used using the technical directory. For reference, I will use the following texts as a reference. 
+
+File: Session2-PDF.txt
+
+Path: docsearch/technical/government/Alcohol_Problems
+~~~
+Session 2.
+Identifying ED Patients with Alcohol Problems
+
+Robert Woolard, MD
+Many patients in the emergency department (ED) have alcohol
+problems, and they can be identified.1 Research on techniques used
+to identify these patients has been conducted, but several areas of
+interest should be addressed by further research. We need to
+further examine and refine alcohol-screening questionnaires in the
+ED. We need to determine the sequence and combination of questions
+...
+~~~
+
+For this file, I wanted to replace "Robert Woolard" with "Barry Bonds"
+~~~
+$ sed 's/Robert Woolard/Barry Bonds/g' Session2-PDF.txt
+~~~
+
+The output I got 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/b872c7e6-522c-46b9-bf9c-1b20a6c44994)
+
+
+The command is looking for the string I want to replace and then replacing it with the new string I gave it. As shown above, "Robert Woolard" was changed to "Barry Bonds". This can be useful when official documentation needs to have updated information. 
+
+
+File: Session3-PDF.txt
+
+Path: docsearch/technical/government/Alcohol_Problems
+~~~
+Session 3.
+Intervening with Alcohol Problems
+in Emergency Settings
+
+Carlo C. DiClemente, PhD* Carl Soderstrom, MD
+Excessive alcohol consumption plays an important role in many of
+the medical conditions, accidents, and injuries that cause visits
+to emergency departments and trauma centers. Many studies have
+documented the presence of alcohol among patients admitted to
+...
+~~~
+
+For this file, I wanted to replace "alcohol" with "sugar". 
+So I used the following command
+~~~
+$ sed 's/alcohol/sugar/g' Session3-PDF.txt
+~~~
+The output I got for this was actually a lot bigger since alcohol is a frequent string that shows up in the text file and the command found EVERY "alcohol" and replaced it with "sugar". 
+
+I will not show the entire output but I will use a snippet to show the before and after of using the command. 
+
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/cac2680f-1ebd-4b45-baad-f872784e14db)
+
+Notice that the command took into consideration of only the "alcohol", not "Alcohol". So whenever it used, be mindful that grammar does matter with the **sed**. This can be useful in cases where a document happens to have a word that can be considered "offensive" and they can use this command to change that word. It would not entirely fix the problem but it definitely will easen up the tension and makes corrections easier when reviewing. 
+
+## **perl** 
+Using the same prompt as before, one of the commands I was given from the AI was **perl**
+
+**Prompt**
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/1117bf93-b9a5-4dd8-abc5-e7f68730ead6)
+
+**Output**
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/62fdf343-e2d0-4228-9165-956670bbe277)
+
+Once again, I asked for the AI to elaborate and how to properly use **perl** and it gave me the following
+
+**Prompt**
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/8be76e9b-b5a0-4569-88de-309bb5b8c4d6)
+
+**Output**
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/f834aad8-d422-43a7-afba-215779771b66)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/a482f5d4-ce9c-4d59-94b0-64066281ce4e)
+
+Here are some examples of **perl** being used.
+
+File: 1468-6708-3-3.txt
+
+Path: docsearch/technical/biomed 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/cbbe5c07-44d7-40fc-8e6c-fd8b8883dd2a)
+
+Command I used
+
+~~~
+$ perl -ne 'print if /Three published/' 1468-6708-3-3.txt
+~~~
+
+Here is the output I got from that command. 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/87bec7b3-26df-4407-bd51-e8ae72a53ae4)
+
+What happened is that when **perl** printed the whole line of text under the condition of it containing the string "Three published". In this case, there is only line where it has the string "Three published". This can be useful in cases where you are asked to change a particular phrase in a big text file. Using **perl** will help with getting you straight to it. Then you can follow up with **sed** to change the string.
+
+However, what if we want to change a string that is contained in a lot of lines? 
+
+
+File: 1468-6708-3-4.txt
+
+Path: docsearch/technical/biomed 
+
+The file being used 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/2ca37392-0d86-4aaf-a4b5-407c8d4b2c9b)
+
+
+Command that was used
+
+~~~
+$ perl -ne 'print if /multicenter/' 1468-6708-3-4.txt
+~~~
+
+The output that followed
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/e348a246-e708-4b39-a074-4a1876b6ba8f)
+
+In this scenario, let's say I am reviewing the document that a colleague. As it is shown, you can see that the string "multicenter" is being used in the first two examples. **perl** would be useful to see how many times multicenter was used and it would print me all the lines that contained "multicenter". From here, I would suggest the colleague to change it up and not have their examples be so robotic-like. **perl** makes situations like checking grammar in a big document a lot easier, making navigation of the string a lot easier. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
