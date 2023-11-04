@@ -3,7 +3,7 @@
 
 In lab for week 4 and 5, we debugged programs by observing their symptoms and running tests. We also found out new terminal commands that help us navigate through more 
 
-**Debugging Programs**
+# **Debugging Programs**
 
 I will use the ArrayExamples and ArrayTests code, both were provided in Lab during Week 4. 
 
@@ -99,8 +99,19 @@ public class ArrayExamples
 ~~~
 
 
-**Researching Commands** 
+# **Researching Commands** 
 
-During lab in week 5, we learned of new terminal commands that helped us find files in a more efficient and faster way. Some of these commands were for example, 
+During lab in week 5, we learned of new terminal commands that helped us find files in a more efficient and faster way. Below are some commands we used in said lab.
+
+* **less**
+* **find**
+* **grep**
+
+However, there are actually a LOT more commands that function similarly to these three. For this report, we will use ChatGPT to help us find new terminal commands that are similar to the **find** command. \
+
+The prompt that I gave the AI was the following: **What are other terminal commands that are alternatives to the command "find". Provide code as an example, please.** 
+
+In response, 
+
 
 
