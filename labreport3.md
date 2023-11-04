@@ -137,7 +137,9 @@ The output for the example above is the following
 
 As ChatGPT mentioned, the purpose of the command is to take the inputted string and find as it called "string patterns". If you look closely at each of the outputs indents, you can see the first two have the strings "Three" and the other two towards the bottom have the strings "Months" in common. This can be useful with documentation that uses dates to specify when it was updated. To also mention, the inputted string must be something very specific or this could lead to the command printing the entire contents of the file which is something we do not want. 
 
-## **
+## **egrep**
+
+I also used ChatGPT to find this command. Below is the prompt I gave and the output I received from the AI.
 
 
 
