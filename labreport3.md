@@ -159,7 +159,7 @@ The output that came out from this command was the following.
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/a510306a-24b8-47f1-a2e2-9428ed047406)
 
-
+As we saw in lab, **grep** on its own listed 
 
 
 
