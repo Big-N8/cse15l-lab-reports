@@ -137,7 +137,11 @@ $ findstr "FBI took control" chapter-3.txt
 
 The output for the example above is the following
 
+**First**
+
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/65442d25-dbc5-4462-93a9-0156168ceea3)
+
+**Second**
 
 ~~~
    died. More than a thousand were injured. An FBI agent at the scene described the
@@ -173,117 +177,6 @@ The output for the example above is the following
                 with other evidence, the FBI put together a case pointing conclusively to the Libyan
                 solve-the FBI remained capable of extraordinary investigative success.
             FBI Organization and Priorities In 1993, President Clinton chose Louis Freeh as the
-                that the FBI's work should be done primarily by the field offices. To emphasize this
-                FBI thwart terrorism before such acts can be perpetrated." Within headquarters, he
-                Center at the CIA and arranged for exchanges of senior FBI and CIA counterterrorism
-                counterterrorism. FBI, Justice, and Office of Management and Budget officials said
-                that FBI leadership seemed unwilling to shift resources to terrorism from other
-                areas such as violent crime and drug enforcement; other FBI officials blamed
-                FBI's counterterrorism resource needs. In addition, Freeh did not impose his views
-            In 1998, the FBI issued a five-year strategic plan led by its deputy director, Robert
-                "Bear" Bryant. For the first time, the FBI designated national and economic
-                FBI. The plan mandated a stronger intelligence collection effort. It called for a
-            ignating "national and economic security" as its top priority in 1998, the FBI did
-                not shift human resources accordingly. Although the FBI's counterterrorism budget
-                tripled during the mid-1990s, FBI counterterrorism spending remained fairly constant
-            Second, the new division intended to strengthen the FBI's strategic analysis
-                senior managers in the FBI's operational divisions. The new division was supposed to
-                identify trends in terrorist activity, determine what the FBI did not know, and
-                ultimately drive collection efforts. However, the FBI had little appreciation for
-                fashion-providing support for existing cases. Compounding the problem was the FBI's
-            Moreover, analysts had difficulty getting access to the FBI and intelligence
-                community information they were expected to analyze. The poor state of the FBI's
-                FBI had never completed an assessment of the overall terrorist threat to the U.S.
-            Third, the FBI did not have an effective intelligence collection effort. Collection
-                on the job. The FBI did not have an adequate mechanism for validating source
-                reporting, either internally or externally. The FBI did not dedicate sufficient
-            Finally, the FBI's information systems were woefully inadequate. The FBI lacked the
-                sharing its institutional knowledge. FBI agents did create records of interviews and
-            In 1999, the FBI created separate Counterterrorism and Counterintelligence divisions.
-                urgent need to increase the FBI's counterterrorism capability. His plan, called
-                almost every FBI field office was assessed to be operating below "maximum capacity."
-            Legal Constraints on the FBI and "the Wall" The FBI had different tools for law
-                could be briefed on FISA information but could not direct or control its
-                FBI shared with prosecutors information pertinent to possible criminal
-                investigations was left solely to the judgment of the FBI.
-                prior consultations between FBI agents and prosecutors, the judge might rule that
-                Janet Reno about the lack of information-sharing controls. On his own, he began
-                information sharing between Justice Department prosecutors and the FBI. They were
-                there was far less information sharing and coordination between the FBI and the
-                the FBI's warrant requests to the FISA Court. The information flow withered.
-                not between two kinds of FBI agents, those working on intelligence matters and those
-                Review, FBI leadership, and the FISA Court built barriers between agents-even agents
-                serving on the same squads. FBI Deputy Director Bryant reinforced the Office's
-            This perception evolved into the still more exaggerated belief that the FBI could not
-            There were other legal limitations. Both prosecutors and FBI agents argued that they
-                jury, and even that prohibition had exceptions. But as interpreted by FBI field
-            Other Law Enforcement Agencies The Justice Department is much more than the FBI. It
-                the FBI or CIA for counterterrorism use.
-                watchlisting suspected terrorists and with the intelligence community and the FBI in
-                cases, but the FBI possessed the classified information sometimes needed as
-                Department. It focused on the FBI's priorities of Hezbollah and Hamas, and began to
-                task force was managed by the New York Field Office of the FBI, and its existence
-                representatives, as partners in the FBI investigation. The FBI expanded the number
-                officials, its agents did become involved with those of the FBI whenever terrorist
-            The Bureau of Alcohol, Tobacco, and Firearms was used on occasion by the FBI as a
-            Before 9/11, with the exception of one portion of the FBI, very little of the
-                prosecution. As FBI agents emphasized to us, the FBI and the Justice Department do
-                not have cruise missiles. They declare war by indicting someone. They took on the
-                receive a broad range of intelligence data from the FBI, CIA, and other agencies so
-                United States. For example, information on the FBI's effort in 1998 to assess the
-                Historically, decisive security action took place only after a disaster had occurred
-                FBI and CIA four years earlier to provide terrorist watchlists to improve
-                pressures from the air carriers to control security costs and to "limit the impact
-                intelligence community include the national security parts of the FBI; the Bureau of
-                command and control methods. With globalization and the telecommunications
-                requirements. Also, the NSA was supposed to let the FBI know of any indication of
-                crime, espionage, or "terrorist enterprise" so that the FBI could obtain the
-                because it believed that this was an FBI role. It also did not want to be viewed as
-                acquiring information and exercising command and control over their operations. The
-                in World War II after having first thought the FBI might take that role. The father
-                of Central Intelligence. Lobbying by the FBI, combined with fears of creating a U.S.
-                    Gestapo, led to the FBI's being assigned
-                CIA and the FBI.
-                the FBI field offices in the United States, everyone in the Directorate of
-                representation from the FBI and other agencies. In the formal table of organization
-                Congress or in the president's Office of Management and Budget. Like the FBI and the
-                security advisor, Zbigniew Brzezinski, took charge, and the coordination function
-            Secretaries of state after Shultz took less personal interest in the problem. Only
-                secretary of defense has ultimate control, under the president. Among the uniformed
-                Security Advisor Zbigniew Brzezinski took charge of crisis management.
-                national security advisor. When President Clinton took office, he decided right away
-                worldwide, including one in New York. Neither the FBI nor the CIA had ever heard of
-                by increasing wiretap and electronic surveillance authority for the FBI, requiring
-                only for the FBI and CIA but also for local police.
-                significantly larger budgets for the FBI, with much of the increase designated for
-                the Justice Department and the FBI in charge at home and left terrorism abroad to
-                medical services, air traffic control, financial services, telephone systems, and
-            The most substantial change in national security oversight in Congress took place
-                said, Congress still took too little action to address institutional
-                Intelligence took the unprecedented step of threatening to bring down the defense
-                infrequently took center stage; and when it did, the context was often terrorists'
-                but there was no reorganization of national security functions. The Senate undertook
-                responsibility for the FBI tightly restricted appropriations for improvements in
-                information technology, in part because of concerns about the FBI's ability to
-            Although individual representatives and senators took significant steps, the overall
-                intelligence and other sources, including material gathered by FBI agents and Kenyan
-                FBI's New York Field Office and the U.S. Attorney for the Southern District of New
-            Counterterrorist Center officers briefed Attorney General Janet Reno and FBI Director
-                success. The Center's chief, "Jeff," joined John O'Neill, the head of the FBI's New
-                over three time zones, even bringing in personnel from the region. The FBI also
-                When thanking the Saudis, Director Tenet took advantage of the opening to ask them
-                as well as hitting al Shifa. The President took the Sudanese tannery off the target
-                secretary, Allen Holmes, took the paper to Slocombe's chief deputy, Jan Lodal, but
-                to designateTaliban-controlled Afghanistan as a state sponsor of terrorism or to
-                also raised the "remote possibility" of Yemen, which offered vast uncontrolled
-            The President suggested that Pakistan use its control over oil supplies to the
-                Arab country. The CIA described working with FBI operatives to prevent a planned
-                target. On October 26, Clarke's CSG took the unusual step of holding a meeting
-                territory. Participants noted that while the FBI had been given additional resources
-                to distribute versions of the report to the FBI and FAA to pass to the New York
-                D.C. or New York. After investigation, the FBI could find no information to support
-                than a roadside ambush because they would have better control, it would be less
-                up the FBI building in Washington, D.C. In September, the CSG reviewed a possible
 ~~~
 
 
@@ -308,9 +201,76 @@ This command is similar to **grep** in terms of the input: command, String (with
 $ egrep "California" technical/911report/chapter-7.txt
 ~~~
 
+~~~
+$ egrep "2001" technical/911report/chapter-8.txt
+~~~
+
+
 The output that came out from this command was the following. 
 
-![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/a510306a-24b8-47f1-a2e2-9428ed047406)
+**First**
+
+~~~
+            Why Hazmi and Mihdhar came to California, we do not know for certain. Khalid Sheikh
+                Mohammed (KSM), the organizer of the planes operation, explains that California was
+                that al Qaeda had any agents in Southern California. We do not credit this
+                California, so that they could begin pilot training as soon as possible. KSM claims
+                Culver City, one of the most prominent mosques in Southern California.
+                fellow inmates at a California prison in September- October 2003 that he had known
+                rest of his time in California, until mid-December; he would then leave for Arizona
+                Translating between English and Arabic, he assisted them in obtaining California
+                of California declined to prosecute him on charges arising out of his alleged
+                impression is that soon after arriving in California, Hazmi and Mihdhar sought out
+                child arrived, he could stand life in California no longer. In late May and early
+                California, and Arizona; and he briefly started at a couple of them before returning
+                an English as a second language program in Oakland, California, which he had
+~~~
+
+**Second**
+
+~~~
+ As 2001 began, counterterrorism officials were receiving frequent but fragmentary
+                2001, it is useful to understand how threat information in general is collected and
+                chosen for briefing the president and senior officials. During 2001, Director of
+                2001, that related to Bin Ladin. The PDB is considered highly sensitive and is
+                (NSA), CIA, or FBI. The Drumbeat Begins In the spring of 2001, the level of
+            In May 2001, the drumbeat of reporting grew louder with reports to top officials that
+            On July 18, 2001, the State Department provided a warning to the public regarding
+            During the spring and summer of 2001, President Bush had on several occasions asked
+                President George W. Bush on August 6, 2001.37 Redacted material is indicated by
+            Most of the intelligence community recognized in the summer of 2001 that the number
+                sleeper cells were likely in the United States. In January 2001, Clarke forwarded a
+            Clarke reflected a different perspective in an email to Rice on September 15, 2001.
+                procedures, none of the few that were released during the summer of 2001 increased
+                briefings for specific air carriers between May 1, 2001, and September 11, 2001. Two
+                such mistakes created opportunities during 2001, especially in late August.
+            On four occasions in 2001, the CIA, the FBI, or both had apparent opportunities to
+            January 2001: Identification of Khallad
+                source who had identified Khallad. In early January 2001, two photographs from the
+                    2001.
+                did not have access-that information regarding the January 2001 identification of
+                in January 2001, the CIA had resumed its search for him, placed him on the State
+                have been found-either before or at the time he applied for a new visa in June 2001,
+            Spring 2001: Looking Again at Kuala Lumpur
+            By mid-May 2001, as the threat reports were surging, a CIA official detailed to the
+            June 2001: The Meeting in New York
+            August 2001: The Search for Mihdhar and Hazmi Begins and Fails
+            During the summer of 2001 "John," following a good instinct but not as part of any
+                15, 2000, and again on July 4, 2001. "Jane" and "Mary" also learned that there was
+                of Justice Inspector General.86We will recap it briefly here. In July 2001, an FBI
+            On August 15, 2001, the Minneapolis FBI Field Office initiated an intelligence
+                United States in February 2001, and had begun flight lessons at Airman Flight School
+                order was signed on August 17, 2001.
+                the threat reporting during the summer of 2001.
+                this information been available in late August 2001, the Moussaoui case would almost
+            The FBI also learned after 9/11 that the millennium terrorist Ressam, who by 2001 was
+                Khalid Sheikh Mohammed received by the intelligence community in the summer of 2001.
+            When additional pieces of the puzzle arrived in the spring and summer of 2001, they
+                person known as "Mukhtar" that the CIA had begun analyzing in April 2001. The CIA
+                12, 2001, a CIA report said that "Khaled"was actively recruiting people to travel
+            As Tenet told us, "the system was blinking red" during the summer of 2001. Officials
+            Yet no one working on these late leads in the summer of 2001 connected the case in
+~~~
 
 As we saw in lab, **grep** on its own listed any 
 
