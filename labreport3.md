@@ -195,7 +195,7 @@ The output gave me a list of commands and I chose this one
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/df37a5ff-2cc2-488c-83ee-cb3aa76f495d)
 
-This command is similar to **grep** in terms of the input: command, String (with quotes), path to text file
+This command is an alternative to **grep**, meaning the arguements can be treated the same just with a slightly different command. 
 
 ~~~
 $ egrep "California" technical/911report/chapter-7.txt
