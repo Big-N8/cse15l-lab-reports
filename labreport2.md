@@ -17,12 +17,24 @@ Here are the results I got when I changed the queries in the URL when the server
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/38a726fd-8a62-41b3-8874-709154d53755)
 
 The methods that are called in this are the handleRequest, followed by *.contains* and then the *.split*.
-The fields of the values were not changed since it was a string to begin with so a change of field was not needed. 
+
+The arguements of the handleRequest method is the **URL url**. 
+
+The fields of the class were **int num** and **String msg** as shown on lines 6 and 7.
+
+The value of the field **num** changes by incrementing the list number. 
+
+The value of the **msg** changes whenever a new string is inputted into the query itself by having the string put into index 1 of the **parameters** array. 
+
+String creates an array on the query. It starts from the array at index 0 and checks the following indices for the inputted string in the query.  
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/3ed7e386-eac9-4f9f-8887-f9a6a4830a93)
 
-The methods that are called in this are the same as the one above. 
-One of the intaken values had their field changed since they are integers that were taken as strings and eventually listed. 
+The methods that are called is the same as the one above, handRequest with the same fields,  **int num** and **String msg**. 
+
+As mentioned before, the value of **num** increments by the number of queries that have been inputted into the URL. With now the listing number incremented (just not in the correct spot because of the progammer)
+
+The values of the fields would go through the same changes as mentioned before. 
 
 **Part 2**
 
