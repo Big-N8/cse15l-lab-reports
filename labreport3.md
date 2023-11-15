@@ -122,10 +122,15 @@ However, there are actually a LOT more commands that function similarly to these
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/ff135cac-9d0e-43c5-9e41-cfac96697eba)
 
 
+**Out of the 13, I chose the following 4**
+- **grep-o**
+- **grep-n**
+- **
+- **
 
 # **grep -o**
 
-This variation of the command only prints the pattern that matches. 
+This variation of the command only prints the pattern that matches exactly. 
 
 ~~~
 // Example 1 
@@ -133,6 +138,8 @@ $ grep -o "DECLA" technical/911report/chapter-2.txt
 DECLA
 DECLA
 ~~~
+
+Since this text file uses captialzation for headers of certain sections, the command is essentially behaves similarly as the shortcut "Control+f" where it will find every sort of matching character, regardless of how incomplete the word is. Only difference being, it is more. This can be useful to help make navigation through long texts slightly easier. 
 
 ~~~
 // Example 2
@@ -143,8 +150,46 @@ Clinical
 Clinical
 ~~~
 
+This example is showing how many times the word "Clinical" on its own shows up in the text file. This can be useful when trying to find how many times a word appears in a text in an exact form (same capitalization and not jointed with another word. 
 
+# **grep -n**
 
+This variation of the command shows the matching lines along with the line number 
+
+~~~
+// Example 1
+$ grep -n "handler" Server.java
+20:    URLHandler handler;
+21:    ServerHttpHandler(URLHandler handler) {
+22:      this.handler = handler;
+27:            String ret = handler.handleRequest(exchange.getRequestURI());
+44:    public static void start(int port, URLHandler handler) throws IOException {
+48:        server.createContext("/", new ServerHttpHandler(handler));
+~~~
+
+The command is finding all of the lines in Server.java that match the pattern, "handler" and listing the lines along with the line numbers. This can be useful when you change a variable name and don't want to go line for line looking for the old variable names. Instead, this command will directly give you all of the lines with them, making the adjustment a lot easier. 
+
+~~~
+// Example 2
+$ grep -n "Pakistan" technical/911report/chapter-5.txt
+27:                traces his ethnic lineage to the Baluchistan region straddling Iran and Pakistan.
+39:                soon after graduating from college. Visiting Pakistan for the first time in early
+53:                Pakistan, he moved his family to Qatar at the suggestion of the former minister of
+58:                position there until early 1996, when he fled to Pakistan to avoid capture by U.S.
+95:                Islamabad by Pakistani authorities on February 7, 1995, after an accomplice turned
+148:                frequently between Pakistan and Afghanistan in 1997 and the first half of 1998,
+311:                returned to Pakistan following the 1993 World Trade Center bombing. Like Yousef, KSM
+493:                to Karachi, Pakistan. There KSM instructed them on Western culture and travel. Much
+537:                their Saudi passports to conceal their prior travels to and from Pakistan. KSM had
+591:                return to Pakistan, so he traveled to Yemen instead.
+875:                Pakistani visas and then return to him for further directions on how to reach
+987:                were concerned that the Pakistani visas in their old passports would raise
+1028:                Pakistan, then on his return to Saudi Arabia his passport, bearing a Pakistani
+1029:                stamp, would be confiscated. So operatives either erased the Pakistani visas from
+1124:            Bin Ladin relied on the established hawala networks operating in Pakistan, in Dubai,
+~~~
+
+Similar to the **grep -o**, it shows all the lines where "Pakistan" is used. This is actually an improvement and makes navigation a lot easier since we know exactly each line that the string was used in.
 
 
 
