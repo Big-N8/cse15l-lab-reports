@@ -111,19 +111,41 @@ However, there are actually a LOT more commands that function similarly to these
 
 **I asked the AI the following prompt**
 
-"put screenshot of input"
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/2d1c09c3-fb13-40c3-a5d4-7185608c55d3)
+
 
 **It gave me a total of 13 alternative uses of the 'grep' command**
 
-"put screenshots of the output"
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/289d75d8-d962-47bd-9712-7d99860a4d3c)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/a36f7cc5-e0ae-4649-b3ea-4c833d4a5691)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/34492da4-f277-44ed-985d-e6e057b58cbe)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/ff135cac-9d0e-43c5-9e41-cfac96697eba)
+
+
 
 # **grep -o**
 
 This variation of the command only prints the pattern that matches. 
 
 ~~~
-grep -o "DECLA" 911report/chapter-2.txt
+// Example 1 
+$ grep -o "DECLA" technical/911report/chapter-2.txt
+DECLA
+DECLA
 ~~~
+
+~~~
+// Example 2
+$ grep -o "Clinical" technical/biomed/1468-6708-3-1.txt
+Clinical
+Clinical
+Clinical
+Clinical
+~~~
+
+
+
+
 
 
 
