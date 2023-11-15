@@ -221,7 +221,7 @@ $ grep -w "Pre" technical/plos/*.txt
 You might be confused why nothing is printing. This variation only intakes string patterns that consist of only whole words. This can be useful when we want to avoid any unecessary "matched" string patterns. For example, the word I am looking for is "President". If this were a normal grep command, it would show all the matches with "pre", such as "predecessor", which is what we do not want.
 
 ~~~
-// Example 1
+// Example 2
 $ grep -w "President" technical/911report/chapter-8.txt
             He in turn met daily with President Bush, who was briefed by the CIA through what is
                 known as the President's Daily Brief (PDB). Each PDB consists of a series of six to
