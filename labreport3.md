@@ -117,7 +117,7 @@ However, there are actually a LOT more commands that function similarly to these
 
 "put screenshots of the output"
 
-**grep -o**
+# **grep -o**
 
 This variation of the command only prints the pattern that matches. 
 
