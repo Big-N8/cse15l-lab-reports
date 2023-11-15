@@ -125,8 +125,8 @@ However, there are actually a LOT more commands that function similarly to these
 **Out of the 13, I chose the following 4**
 - **grep-o**
 - **grep-n**
-- **
-- **
+- **grep-c**
+- **grep-w**
 
 # **grep -o**
 
@@ -189,8 +189,61 @@ $ grep -n "Pakistan" technical/911report/chapter-5.txt
 1124:            Bin Ladin relied on the established hawala networks operating in Pakistan, in Dubai,
 ~~~
 
-Similar to the **grep -o**, it shows all the lines where "Pakistan" is used. This is actually an improvement and makes navigation a lot easier since we know exactly each line that the string was used in.
+Similar to the **grep -o**, it shows all the lines where "Pakistan" is used. This is a very useful improvement since now it shows exactly where the string was found throughout the whole text. 
 
+# **grep-c**
+~~~
+// Example 1
+$ grep -c "Alcohol" technical/government/Alcohol_Problems/Session2-PDF.txt
+47
+~~~
+
+This command just finds the counts each string that matches "Alcohol" and outputs the total amount of matches that were found in the text file. This can be useful when you want to see how finite 
+
+~~~
+// Example 2
+$ grep -c "Alcohol" technical/government/Alcohol_Problems/*.txt
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt:1
+technical/government/Alcohol_Problems/Session2-PDF.txt:47
+technical/government/Alcohol_Problems/Session3-PDF.txt:32
+technical/government/Alcohol_Problems/Session4-PDF.txt:31
+~~~
+
+Similar to the example above, it counts the amount of matches found. However, now it is reading the matches found in each file in the **Alcohol_Problems** directory which is useful since we can find out with one command instead of reusing the line used in the first example. 
+
+# **grep-w**
+
+~~~
+// Example 1
+$ grep -w "Pre" technical/plos/*.txt
+~~~
+
+You might be confused why nothing is printing. This variation only intakes string patterns that consist of only whole words. This can be useful when we want to avoid any unecessary "matched" string patterns. For example, the word I am looking for is "President". If this were a normal grep command, it would show all the matches with "pre", such as "predecessor", which is what we do not want.
+
+~~~
+// Example 1
+$ grep -w "President" technical/911report/chapter-8.txt
+            He in turn met daily with President Bush, who was briefed by the CIA through what is
+                known as the President's Daily Brief (PDB). Each PDB consists of a series of six to
+            Reports similar to many of these were made available to President Bush in morning
+                intelligence briefings with DCI Tenet, usually attended by Vice President Dick
+            To enlist more international help, Vice President Cheney contacted Saudi Crown Prince
+                airport during the G-8 summit, which President Bush attended.
+            During the spring and summer of 2001, President Bush had on several occasions asked
+                attack in the United States. The President told us the August 6 report was
+                historical in nature. President Bush said the article told him that al Qaeda was
+                dangerous, which he said he had known since he had become President. The President
+                President George W. Bush on August 6, 2001.37 Redacted material is indicated by
+                President and his top advisers of the possibility of a threat of an al Qaeda attack
+                in the United States. DCI Tenet visited President Bush in Crawford, Texas, on August
+                17 and participated in PDB briefings of the President between August 31 (after the
+                President had returned to Washington) and September 10. But Tenet does not recall
+                any discussions with the President of the domestic threat during this period.
+                the summer. In addition to his daily meetings with President Bush, and weekly
+                to the President. Thus, these individual cases did not become national priorities.
+~~~
+
+Since the pattern is now a whole word, it printed out every line in that file that contained said pattern. This can only be useful when you want a specific whole word for your string pattern instead of a particular prefix or suffix.
 
 
 
