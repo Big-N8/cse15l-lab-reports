@@ -109,7 +109,7 @@ After hitting <esc>
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/181e72e5-01c1-476c-8a0b-54626c8dcc5e)
 
-
+Remember that we have to save our change to the file! Hit the following keys. 
 
 # Saving the change and pushing it to github. 
 
