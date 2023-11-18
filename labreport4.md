@@ -97,12 +97,15 @@ This means we are now in vim's "insert" mode which now allows us to treat it lik
 ~~~
 
 When in insert mode, we can treat it like a normal text editor like google docs. The first three keys do the same actions. The right arrow moves the cursor, the backspace deletes, and "2" is a number you can put. The more important command is the "esc" key. This key puts us back in normal mode (meaning now we have to navigate the cursor with <h>, <j>, <k>, and <l> again). You can tell we are back in normal mode by looking at the bottom of your screen. 
-
+~~~
 Before hitting <esc> 
+~~~
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/920ca0fd-3295-4dbd-a837-25292294b4c2)
 
+~~~
 After hitting <esc>
+~~~
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/181e72e5-01c1-476c-8a0b-54626c8dcc5e)
 
