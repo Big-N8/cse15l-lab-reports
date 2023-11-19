@@ -184,20 +184,21 @@ Remember we typed in a "vim" command, so the change in controls is gonna happen 
 <j> (pressed/held key until the line with the url)
 <dd>
 <i>
+<enter>
+<tab>
 Typed : "url ="
 <right arrow key> (until after the "=")
 ctrl-v
 <esc>
 <:><q><!>
+<enter>
 ~~~
 
 Which now looks like the following
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/41cad06b-803d-4158-b7a6-97085f806828)
 
-~~~
-<enter> 
-~~~
+One of the new commands we see here is "dd". This command deletes a whole line and then moves the cursor back a line. Once insert mode is activated, keys can now be considered as an actual text editor. Recall, we need to resume to normal mode with "esc" and then type ":q!" to overwrite and save. "enter" to close. 
 
 
 
