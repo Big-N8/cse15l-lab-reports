@@ -236,7 +236,7 @@ Go back to the lab7 forked repository and check the file you made and edit to. S
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/52e8fb69-2770-4b92-a422-2d96a340b1f9)
 
-And that's how you make edit files and push them to Github, all from the terminal. :)
+And that's how you make edit files and push them to Github, all from the terminal :)
 
 
 
