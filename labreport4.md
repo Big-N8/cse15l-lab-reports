@@ -1,4 +1,4 @@
-r# **Lab Report 4**
+# **Lab Report 4**
 
 We learned how to use vim by running and editing test on one of the files from our past labs. 
 
@@ -199,6 +199,52 @@ Which now looks like the following
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/41cad06b-803d-4158-b7a6-97085f806828)
 
 One of the new commands we see here is "dd". This command deletes a whole line and then moves the cursor back a line. Once insert mode is activated, keys can now be considered as an actual text editor. Recall, we need to resume to normal mode with "esc" and then type ":q!" to overwrite and save. "enter" to close. 
+
+Now we need to commit the change and then push it to Github. 
+
+Type following commands
+~~~
+git add ListExamples.java 
+git commit 
+~~~
+
+Shown as follows
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/ff882046-f32e-441b-a869-9acc2dda8507)
+
+Type a message of some sort at the very top. Should appear in orange color.
+
+Be sure to this key for insert mode.
+~~~
+<i>
+~~~
+
+Do the following after your message
+~~~
+<esc> (Back to normal mode)
+:wq! (overwrites and saves.
+~~~
+
+Now push the commit to github. 
+~~~
+git push
+~~~
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/36c9611a-d898-45a4-bdf2-faeb244c584a)
+
+Go back to the lab7 forked repository and you should see the following. 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/01b6115f-8c7d-4acd-b232-306f54da5bfc)
+
+Check the file you edited to see if said commit was made. 
+
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/52e8fb69-2770-4b92-a422-2d96a340b1f9)
+
+
+
+
+
+
 
 
 
