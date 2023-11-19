@@ -5,10 +5,10 @@ We learned how to use vim by running and editing test on one of the files from o
 # **Logging into our SSH account and accessing the remote terminal**
 
 *Terminal Inputs* 
-- Type on your local terminal the following: "ssh cs15lfa23xx@ieng6.ucsd.edu" (Your ieng6 account should have its own unique letters, put them where the "xx" go)
 - ~~~
   cd lab7
   ~~~
+- Type on your local terminal the following: "ssh cs15lfa23xx@ieng6.ucsd.edu" (Your ieng6 account should have its own unique letters, put them where the "xx" go)
 - ~~~
   <enter>
   ~~~
@@ -56,7 +56,12 @@ Let's run the bash script **test.sh** to see if the tests passed.
 Let us make the necessary changes to get both tests to pass. But how? We can't access the files on the remote terminal .... or can we? 
 
 Input the following into the terminal. 
-- vim ListExamples.java
+- ~~~
+  vim ListExamples.java
+  ~~~
+- ~~~
+  <enter>
+  ~~~
 
 Should look like the following
 
@@ -72,9 +77,14 @@ Follow these directions to make the correction.
 
 Vim opens in "normal" mode, we navigate our cursor using the following diagram
 ~~~
-         up:<k>
-left:<h>         right:<l>
-        down:<j>
+Left  Down  Up  Right   
+<H>   <J>  <K>  <L>
+~~~
+
+Note: For those who are used to using the arrow keys or WASD like in video games, the easier way to manage this change is to have your fingers set like this
+~~~
+Left Middle Finger  Left Index Finger  Right Index Finger  Right Middle Finger   
+       <H>                 <J>                <K>                  <L>
 ~~~
 
 In this case hold the down key (in reference to the diagram above), until we reach the line below the comment that starts with "change index1 below to index2..."
@@ -112,8 +122,14 @@ After hitting <esc>
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/181e72e5-01c1-476c-8a0b-54626c8dcc5e)
 
-Remember that we have to save our change to the file! Hit the following keys. 
+Remember that we have to save our change to the file! Double check you are on normal mode, by hitting 
+~~~
+<esc>
+~~~
+To save the file change, 
+~~~
 
+~~~
 # Saving the change and pushing it to github. 
 
 
