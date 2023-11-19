@@ -232,14 +232,11 @@ git push
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/36c9611a-d898-45a4-bdf2-faeb244c584a)
 
-Go back to the lab7 forked repository and you should see the following. 
-
-![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/31dfc9b7-00c6-445e-8542-601710e8c416)
-
-
-Check the file you edited to see if said commit was made. 
+Go back to the lab7 forked repository and check the file you made and edit to. See if the change went through
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/52e8fb69-2770-4b92-a422-2d96a340b1f9)
+
+And that's how you make edit files and push them to Github, all from the terminal. :)
 
 
 
