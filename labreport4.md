@@ -7,6 +7,9 @@ We learned how to use vim by running and editing test on one of the files from o
 *Terminal Inputs* 
 - Type on your local terminal the following: "ssh cs15lfa23xx@ieng6.ucsd.edu" (Your ieng6 account should have its own unique letters, put them where the "xx" go)
 - ~~~
+  cd lab7
+  ~~~
+- ~~~
   <enter>
   ~~~
 The following should show
