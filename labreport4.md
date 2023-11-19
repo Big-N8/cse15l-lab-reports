@@ -234,7 +234,8 @@ git push
 
 Go back to the lab7 forked repository and you should see the following. 
 
-![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/e0d7a70e-d2cb-4a68-9591-64a4be59a408)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/31dfc9b7-00c6-445e-8542-601710e8c416)
+
 
 Check the file you edited to see if said commit was made. 
 
