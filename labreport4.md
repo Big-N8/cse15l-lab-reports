@@ -186,7 +186,8 @@ Recall, we need to do the following.
 - Go to our Github, then repositories
 - Choose the forked lab7 repository
 - Hit the green **code** button
-- Choose the ssh tab and copy its url using 
+- Choose the ssh tab and copy its url using
+  
 ~~~
 <ctrl-c> // copies 
 ~~~
