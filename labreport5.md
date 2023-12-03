@@ -51,7 +51,7 @@ The error is actually not in your test but in your code for ArrayExamples. As se
 
 I found where I was going wrong! I was assiging the indexes of the old array to the new array but in the same order it was inputted instead of the end of the array and working backwords. Thank you for your help!
 
-![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/b9e7331e-e96e-4dd2-b4f5-428b84170dbc)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/d972b7ab-eabf-4669-9950-0c791d4b300b)
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/2087b463-230d-4faf-9ba2-d0e2d2b7e05a)
 
