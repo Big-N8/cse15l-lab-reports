@@ -55,12 +55,12 @@ I found where I was going wrong! I was assiging the indexes of the old array to 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/2087b463-230d-4faf-9ba2-d0e2d2b7e05a)
 
 ---
-*The post gets 3 likes from two instructors and the TA that helped*
+*The post gets 3 likes from two instructors and the TA that helped the student*
 
 
 
 
----
+
 
 
 
