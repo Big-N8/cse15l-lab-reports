@@ -56,6 +56,12 @@ I found where I was going wrong! I was assiging the indexes of the old array to 
 ---
 *The post gets 3 likes from two instructors and the TA that helped the student*
 
+## Part 2: Reflection 
+
+Despite how confusing the navigation was at first, learning vim was actually pretty cool. I didn't think we could edit files from the terminal which can make things a lot easier. I recall when I took prior CS classes and we would have to wait on a slow IDE to load the file, make the change, and then make sure it actually saved the change. This can be useful when you finish work for the day and then your co-workers are like "yo, you left a syntax error on line 356". Instead of grunting of opening the IDE and such, you can just vim the file and then push it to github which should be more time effective and then I can go home. 
+
+I also liked writing test scripts. This is the first time I ever wrote tests for programs. I was use to just running the program itself. But learning how to make tests makes debugging a faster process. 
+
 
 
 
