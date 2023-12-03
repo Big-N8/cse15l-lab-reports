@@ -8,15 +8,16 @@ We learned how to use vim by running and editing test on one of the files from o
 - ~~~
   cd lab7
   ~~~
-- Type on your local terminal the following: "ssh cs15lfa23xx@ieng6.ucsd.edu" (Your ieng6 account should have its own unique letters, put them where the "xx" go)
+- Type on your local terminal the following: 
 - ~~~
+  ssh cs15lfa23xx@ieng6.ucsd.edu //(Your ieng6 account should have its own unique letters, put them where the "xx" go)
   <enter>
   ~~~
 The following should show
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/1a28cccf-059f-4c3d-a235-0ebf7163f51e)
 
-These inputs just get us logged into our remote terminal through the use of the "ssh" command, a task we have done several times throughout this course. **<enter>** helps us use the 
+These inputs just get us logged into our remote terminal, a task we have done various times throughout the course. 
 
 # **Cloning the repository from our Github Account (using the ssh url)**
 
@@ -29,8 +30,8 @@ Should look like this
 From now on, we will be using the remote terminal. 
 
 *Terminal Inputs*
-- git clone (paste your copied url, using **ctrl-v**)
 - ~~~
+  git clone <ctrl-v> //ctrl-v to paste copied url.
   <enter>
   ~~~
 
@@ -44,10 +45,9 @@ Same as the previous step, we have used git clone several times to access the re
 
 We want to see if our tests will run for the **ListExamples.java** file. 
 
-Let's run the bash script **test.sh** to see if the tests passed. 
-
-- bash test.sh
+Let's run the bash script to see if the tests passed. 
 - ~~~
+  bash test.sh
   <enter>
   ~~~
 
@@ -58,8 +58,6 @@ Let us make the necessary changes to get both tests to pass. But how? We can't a
 Input the following into the terminal. 
 - ~~~
   vim ListExamples.java
-  ~~~
-- ~~~
   <enter>
   ~~~
 
@@ -111,7 +109,24 @@ This means we are now in vim's "insert" mode which now allows us to treat it lik
 <esc>
 ~~~
 
-When in insert mode, we can treat it like a normal text editor like google docs. The first three keys do the same actions. The right arrow moves the cursor, the backspace deletes, and "2" is a number you can put. I then used "ctrl-a" which appended the "index1" to "index2", instead of moving the cursor over. The more important command is the "esc" key. This key puts us back in normal mode (meaning now we have to navigate the cursor with <h>, <j>, <k>, and <l> again). You can tell we are back in normal mode by looking at the bottom of your screen. 
+When in insert mode, we can treat it like a normal text editor like google docs or microsoft word. 
+
+~~~
+<right arrow key> //moves the cursor to the right
+<backspace> // deletes anything around the cursor
+<2>
+
+// alternatively
+
+<ctrl-a> // appends the integer like changing index1 to index2.
+
+// Hit the key once change is done.
+
+<Esc> // returns back to normal mode. 
+~~~
+
+Below you can see the before and after returning to normal mode. 
+
 ~~~
 Before hitting <esc> 
 ~~~
@@ -171,7 +186,10 @@ Recall, we need to do the following.
 - Go to our Github, then repositories
 - Choose the forked lab7 repository
 - Hit the green **code** button
-- Choose the ssh tab and copy its url using **ctrl-c**
+- Choose the ssh tab and copy its url using 
+~~~
+<ctrl-c> // copies 
+~~~
 
 Looks like this 
 
@@ -179,18 +197,18 @@ Looks like this
 
 Go back to VS Code. 
 
-Remember we typed in a "vim" command, so the change in controls is gonna happen once again. Here was my key pattern. 
+Here was my key pattern. 
 ~~~
 <j> (pressed/held key until the line with the url)
-<dd>
-<i>
+<dd> // deletes a whole line. 
+<i> // goes into insert mode
 <enter>
-<tab>
-Typed : "url ="
+<tab> // shifts cursor over a good amount of space. 
+"url ="
 <right arrow key> (until after the "=")
-ctrl-v
-<esc>
-<:><q><!>
+ctrl-v // paste
+<esc> // back to normal mode
+:q! // Saves and Quits in Normal Mode
 <enter>
 ~~~
 
@@ -198,7 +216,19 @@ Which now looks like the following
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/41cad06b-803d-4158-b7a6-97085f806828)
 
-One of the new commands we see here is "dd". This command deletes a whole line and then moves the cursor back a line. Once insert mode is activated, keys can now be considered as an actual text editor. Recall, we need to resume to normal mode with "esc" and then type ":q!" to overwrite and save. "enter" to close. 
+One of the new commands we see here is 
+
+~~~
+dd
+~~~
+
+This command deletes a whole line and then moves the cursor back a line. Once insert mode is activated, keys can now be considered as an actual text editor. Recall, we need to resume to normal mode with
+
+~~~
+<esc> // back to normal
+:q! // quits and saves the file.
+<enter>
+~~~
 
 Now we need to commit the change and then push it to Github. 
 
@@ -216,7 +246,7 @@ Type a message of some sort at the very top. Should appear in orange color.
 
 Be sure to this key for insert mode.
 ~~~
-<i>
+<i> // Enters insert mode
 ~~~
 
 Do the following after your message
