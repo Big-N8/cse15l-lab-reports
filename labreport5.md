@@ -13,7 +13,8 @@ In preparation for Skill Demo 3, I am praciticing writing my own tests for the c
 
 ArrayExamples
 
-![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/27385e56-385c-4c96-8176-2fe2fb8b7e2e)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/484727e6-616a-484b-ba62-d1136d9d4607)
+
 
 ArrayTests
 
@@ -50,7 +51,7 @@ The error is actually not in your test but in your code for ArrayExamples. As se
 
 I found where I was going wrong! I was assiging the indexes of the old array to the new array but in the same order it was inputted instead of the end of the array and working backwords. Thank you for your help!
 
-![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/3dd53caa-c0b6-4877-ac48-755c93488a0b)
+![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/b9e7331e-e96e-4dd2-b4f5-428b84170dbc)
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/2087b463-230d-4faf-9ba2-d0e2d2b7e05a)
 
