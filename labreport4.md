@@ -208,7 +208,7 @@ Here was my key pattern.
 <right arrow key> (until after the "=")
 ctrl-v // paste
 <esc> // back to normal mode
-:q! // Saves and Quits in Normal Mode
+:wq! // Saves and Quits in Normal Mode
 <enter>
 ~~~
 
@@ -226,7 +226,7 @@ This command deletes a whole line and then moves the cursor back a line. Once in
 
 ~~~
 <esc> // back to normal
-:q! // quits and saves the file.
+:wq! // quits and saves the file.
 <enter>
 ~~~
 
