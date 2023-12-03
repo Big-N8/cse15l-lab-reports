@@ -127,15 +127,14 @@ When in insert mode, we can treat it like a normal text editor like google docs 
 
 Below you can see the before and after returning to normal mode. 
 
-~~~
 Before going into normal mode.
-~~~
+
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/920ca0fd-3295-4dbd-a837-25292294b4c2)
 
-~~~
+
 After entering normal mode. 
-~~~
+
 
 ![image](https://github.com/Big-N8/cse15l-lab-reports/assets/146897977/181e72e5-01c1-476c-8a0b-54626c8dcc5e)
 
